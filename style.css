@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+
+*{
+    margin:0 ;
+    padding:0 ;
+    
+}
+
+
+
+:root{
+    --Cyan: hsl(179, 62%, 43%);
+    --BrightYellow: hsl(71, 73%, 54%);
+    --LightGray: hsl(204, 43%, 93%);
+    --GrayishBlue: hsl(218, 22%, 67%);
+    --off-cyan: hsla(179, 62%, 43%, 0.699);
+    --white:hsl(0, 0%, 100%);
+}
+
+body{
+    
+    font-family: 'Karla', sans-serif;
+    min-height: 100vh;
+    text-align: center;
+    background-color: var(--LightGray);
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+
+}
+
+.container{
+    width: 960px;
+    margin: 0 auto;
+    border-radius: 13px;
+}
+
+.wrapper{
+    
+}
+
+
+.box1{
+    background-color: var(--white);
+}
+
+.box1 h1{
+    color: var(--Cyan);
+    padding: 20px;
+    
+}
+.box1 h2{
+    color: var(--BrightYellow);
+    padding-bottom: 10px;
+}
+
+.box1 p{
+    color: var(--GrayishBlue);
+    line-height: 1.6;
+}
+
+
+
+.box2{
+    background-color: var(--Cyan);
+}
+
+
+.box2 h2{
+    color: var(--white);
+
+}
+
+.box2 p{
+    color: var(--LightGray);
+
+}
+
+#price span{
+    font-size: 30px;
+    font-weight: 700;
+
+}
+#full {
+    color: var(--white);
+
+}
+
+a{
+    
+   
+    background-color: var(--BrightYellow);
+    text-decoration: none;
+    color: var(--white);
+    padding:  1em 6em;
+    border-radius: 7px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.158);
+    
+}
+
+a:hover{
+    background-color: var(--white);
+    color: var(--BrightYellow);
+    transition: all 0.2s;
+}
+
+
+
+
+.box3{
+    background-color: var(--off-cyan);
+}
+
+.box3 h2{
+    color: var(--white);
+}
+
+.box3 ul{
+    color: var(--white);
+    list-style-type:none
+}
